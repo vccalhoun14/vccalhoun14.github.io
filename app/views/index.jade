@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  header.section.group
+    nav.col.span_1_of_2
+      ul
+        li
+          a(href="#portfolio") Projects
+        li
+          a(href="#about") About Victoria
+        li
+          a(href="#contact") Contact
+    div.col.span_1_of_2
+      p front-end developer | ux engineer
+      h1 Victoria
+      h2 Cano-Calhoun
+  main
+    article.portfolio#portfolio.section.group
+      h1 Recent Work
+      div.section.group.projects
+        section.col.span_1_of_2
+          a(href='http://github.com/CF-Personal-Growth-Plan/PGP')
+            img(src='images/pgp.png', alt="PGP App Front Page")
+        section.col.span_1_of_2
+          a(href='')
+            img(src='images/bloom.png', alt="Bloom - A Style Guide Front Page")
+    article.about#about.section.group
+      h1 About Me
+      p I am a UX Developer who is passionate about improving the lives of others. I am motivated by responsive web design and enjoy working with emerging technologies and platforms such as Node, Express, and Angular.
+    article.contact#contact.section.group
+      h1 Contact Me
+      p
+        span.icon-github
+        span.icon-linkedin
+        span.icon-twitter
+  footer.section.group
+    p &copy; 2014 Victoria Cano-Calhoun
